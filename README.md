@@ -13,7 +13,7 @@ To use kubectl-argo-rollouts put this step into your workflow:
   env:
     KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
   with:
-    args: get pods
+    args: get rollout
 ```
 
 ## Environment variables
