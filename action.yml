@@ -1,4 +1,4 @@
-name: 'starubiquitous kubectl-argo-rollouts cli'
+name: 'kubectl-argo-rollouts cli'
 description: 'GitHub Action for interacting with kubectl-argo-rollouts (kubectl-argo-rollouts)'
 author: 'meakawa <meakawa@icloud.com>'
 branding:
