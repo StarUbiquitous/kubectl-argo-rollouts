@@ -1,0 +1,12 @@
+name: 'starubiquitous kubectl-argo-rollouts cli'
+description: 'GitHub Action for interacting with kubectl-argo-rollouts (kubectl-argo-rollouts)'
+author: 'meakawa <meakawa@icloud.com>'
+branding:
+  icon: 'terminal'
+  color: 'blue'
+inputs:
+  KUBE_CONFIG:
+    description: 'Kubernetes configuration'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
